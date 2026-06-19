@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary meta / SEO -->
+    <title>John Raven Glomar — Full Stack Developer & Gen AI Enthusiast</title>
+    <meta
+      name="description"
+      content="Full Stack Developer with 4+ years building scalable web apps across frontend and backend, now deep-diving into Generative AI — AI agents, prompt engineering, and MCP servers."
+    />
+    <meta name="author" content="John Raven Glomar" />
+    <meta name="theme-color" content="#0a0a0c" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="John Raven Glomar — Full Stack Developer & Gen AI Enthusiast" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer with 4+ years building scalable web apps, now deep-diving into Generative AI."
+    />
+
+    <!-- Fonts: Inter (UI/headings) + JetBrains Mono (labels/eyebrows) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+      No-FOUC theme bootstrap: set the theme class BEFORE first paint so there is
+      no flash of the wrong theme. Defaults to dark unless the user saved "light".
+    -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme')
+          var isDark = saved ? saved === 'dark' : true // dark by default
+          document.documentElement.classList.toggle('dark', isDark)
+        } catch (e) {
+          document.documentElement.classList.add('dark')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
