@@ -58,9 +58,8 @@ export const portfolio = {
     secondaryCta: { label: 'Get in touch', href: '#contact' },
     stats: [
       { value: '4+', label: 'Years experience' },
-      { value: '4', label: 'Companies' },
-      { value: '6', label: 'Certifications' },
-      { value: 'AWS', label: 'Certified Dev' },
+      { value: '3', label: 'Companies' },
+      { value: '13', label: 'Certifications' },
     ],
   },
 
@@ -211,15 +210,43 @@ export const portfolio = {
   credentials: {
     heading: 'Credentials',
     certifications: [
-      { name: 'AWS Certified Developer – Associate', issuer: 'Amazon Web Services' },
-      { name: 'Fundamentals of Generative AI [101-Basics]', issuer: 'Cognizant Learn' },
-      { name: 'GitHub Copilot: Use AI to Write Code', issuer: 'Udemy' },
       {
-        name: 'Advanced React: Design System, Design Patterns, Performance',
+        name: 'AWS Certified Developer – Associate',
+        issuer: 'Amazon Web Services Training and Certification',
+      },
+      {
+        name: 'Ultimate AWS Certified Developer Associate 2023 NEW DVA-C02',
+        issuer: 'Udemy',
+      },
+      { name: 'Fundamentals of Generative AI [101-Basics]', issuer: 'Cognizant Learn' },
+      {
+        name: 'GitHub Copilot: Use AI to write code for you! Copilot 2024',
+        issuer: 'Udemy',
+      },
+      {
+        name: 'Design Thinking for Beginners: Develop Innovative Ideas',
+        issuer: 'Udemy / NASBA',
+      },
+      {
+        name: 'Advance React: Design System, Design Patterns, Performance',
         issuer: 'Udemy',
       },
       { name: 'React & TypeScript – The Practical Guide', issuer: 'Udemy' },
-      { name: 'Outstanding Performance', issuer: 'CSV Academy Java Development Program' },
+      { name: 'Advanced JavaScript', issuer: 'Udemy' },
+      { name: 'ES6 JavaScript the Complete Developer’s Guide', issuer: 'Udemy' },
+      {
+        name: 'Redux with React JS: Learn Redux with Modern React JS',
+        issuer: 'Udemy',
+      },
+      {
+        name: 'CSV Academy Program focused on Java Development',
+        issuer: 'CSV Academy',
+      },
+      { name: 'Software Security Requirements [101-BASICS]', issuer: 'Cognizant Learn' },
+      {
+        name: 'Principles of Software Security [201-INTERMEDIATE]',
+        issuer: 'Cognizant Learn',
+      },
     ],
     education: {
       degree: 'Bachelor of Science in Information Technology',

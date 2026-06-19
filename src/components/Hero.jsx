@@ -49,7 +49,7 @@ export default function Hero() {
           </div>
 
           {/* Stats */}
-          <ul className="mt-14 grid max-w-xl grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-4">
+          <ul className="mt-14 grid max-w-lg grid-cols-3 gap-x-6 gap-y-6">
             {hero.stats.map((s) => (
               <li key={s.label}>
                 <div className="text-2xl font-semibold tracking-tight sm:text-3xl">

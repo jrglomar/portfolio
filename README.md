@@ -43,6 +43,14 @@ guide that accompanies this project, or in short:
 3. Framework preset **Vite** → Build `npm run build` → Output `dist`.
 4. Deploy.
 
+### CI/CD via GitHub Actions
+
+Production deploys are automated by [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml):
+every push to `main` builds and deploys to Vercel using the Vercel CLI. `vercel.json`
+disables Vercel's own Git auto-deploy for `main` so there is exactly one production deploy
+per push (PR preview deploys still work). Requires three GitHub repo secrets:
+`VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
+
 ## 📁 Structure
 
 ```
